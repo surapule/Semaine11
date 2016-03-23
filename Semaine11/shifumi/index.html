@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+	<link href="style.css" rel="stylesheet">
+</head>
+<body>
+	<div class="container">
+	<header class= "col-md-12">
+    		<h1>Salut est tu pret a jouer!!!</h1>
+    		<p>C'est parti pour le Shifumi!!!</p>
+		</header>
+		
+		<main class="col-md-offset-3 col-md-6">
+	    	<select name="Selected" id="Selected" onchange="selitem()">
+	    		<option value="3"></option>
+	            <option value="0">Pierre</option>
+	            <option value="1">Feuille</option>
+	            <option value="2">Ciseaux</option>
+	        </select>
+				<button id="btnTest">Tester</button>
+				<div id="victoire"></div>
+				<div id= "defaite"></div>
+				<div id = "egalite"></div>
+				<div id="result" class="col-md-3"></div>
+		</main>	
+		<div id="result1" class="col-md-3"></div>
+	</div>
+	
+<script type="text/javascript" src="shifumi.js"></script>
+</body>
+</html>
